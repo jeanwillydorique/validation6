@@ -1,0 +1,98 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin:0;
+    background-color: #e7e7e7;
+    font-family: 'Oswald', sans-serif;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+img{
+    width: 80%;
+    padding: 0;
+    margin:0;
+}
+
+.jerseycard{
+    width: 90%;
+    height: 40%;
+    padding: 0;
+    margin:0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #0B5917;
+    overflow: hidden;
+}
+.jerseycard:nth-child(even) {
+    background-color: #1CBF58;
+}
+.jerseyimg{
+    width: 50%;
+    height: 100%;
+}
+.jerseycardtext{
+    width: 50%;
+    height: 100%;
+    color :#e7e7e7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+p{
+    padding: 0;
+    margin:0;
+}
+
+/* Navigation Bar */ 
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #004024;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #ddd;
+}
+
+
+/* Error page */ 
+
+.contener{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
